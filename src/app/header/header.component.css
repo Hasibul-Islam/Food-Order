@@ -4,33 +4,37 @@ header{
     border-bottom: 1px solid purple;
 }
 a{
-    color: blue;
+    color: rgb(1, 19, 19);
+    
 }
 a:hover{
-    background-color: brown;
+    background-color: rgb(70, 69, 75);
     color: white;
 }
 
 .container{
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: rgb(179, 192, 199);
 }
 a.logo{
-    font-family: bold;
+    font-weight: bold;
     padding: 1em;
 }
 
 a.cart{
-    font-family: bold;
+    font-weight: bold;
     padding: 1em;
 }
+
 
 nav ul{
     list-style-type: none;
     margin: 0;
+    
 }
 nav ul li a{
     padding: 1em;
-    display: inline-block;
+    display: inline-block ;
 }
